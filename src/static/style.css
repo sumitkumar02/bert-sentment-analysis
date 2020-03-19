@@ -1,0 +1,53 @@
+* {
+	outline: none !important;
+}
+
+.coustom_white {
+	color: #eae9ff;
+}
+
+section#predict_box{
+    background-image: url('background.svg');
+    background-position: bottom;
+    background-size: cover;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* #predict_box #wrapper {
+	position: absolute;
+    top: 45%;
+	transform: translateY(-50%);
+	height: auto;
+}
+ */
+#predict_box form textarea:focus {
+    color: #495057;
+    background-color: rgb(255, 255, 255);
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.0 rgba(0,123,255,0.25);
+}
+
+#predict_box button#submit_btn {
+	border-radius: 5rem;
+    background-color: #706bff;
+    color: white;
+    font-size: 1.2rem;
+	box-shadow: 0px 6px 10px 6px #787bfb;
+	transition: ease-in-out 0.3s;
+}
+
+#predict_box button#submit_btn:hover {
+	box-shadow: none;
+    background-color: white;
+    color: #706bff;
+}
+
+
+@media only screen and (min-width:280px) and (max-width:600px) {
+	
+}
